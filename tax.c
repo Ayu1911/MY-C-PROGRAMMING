@@ -17,7 +17,7 @@ int main (){
     else{
         tax=0.05 * (500000 -250000) + 0.2 * (1000000 - 500000) + 0.3 * (income -100000);
     }
-    printf("the total tax you need to pay is %f",tax);
+    printf("the total tax you need to pay is %2f",tax);
    
 
     return 0;
