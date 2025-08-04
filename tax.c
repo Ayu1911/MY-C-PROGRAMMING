@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main (){
-    int income, tax=0;
+    int income;float tax=0;
     printf("enter income :\n");
     scanf("%d",&income);
 
@@ -17,7 +17,7 @@ int main (){
     else{
         tax=0.05 * (500000 -250000) + 0.2 * (1000000 - 500000) + 0.3 * (income -100000);
     }
-    printf("the total tax you need to pay is %d",tax);
+    printf("the total tax you need to pay is %f",tax);
    
 
     return 0;
