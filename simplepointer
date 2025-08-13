@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int i =72;
+    int* j = &i;//j is pointer pointing to i  
+    int k= 67;
+    printf("the address of i is %u\n",&i);
+    printf("the address of u is %u\n",j);
+    printf("the address of k is %u\n",&k);
+    
+
+    printf("the value of is %d\n",*(&i));
+    return 0;
+}
